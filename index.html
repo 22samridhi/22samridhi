@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>speech text reader</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright&family=Open+Sans+Condensed:wght@300&family=Sacramento&family=Signika:wght@500&display=swap" rel="stylesheet">
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <a href="instruction.html" class="inst">Instructions</a>
+    <h1>SPEECH TEXT READER</h1>
+
+
+  <h3 class="cv">Choose voice</h3>
+  <select name="" id="voice"class="cv1"></select>
+
+
+
+
+
+<section id="dcarousel">
+
+
+
+
+    <div id="carouselControls" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators" style="position:absolute;">
+         <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselControls" data-slide-to="1"></li>
+         <li data-target="#carouselControls" data-slide-to="2"></li>
+       </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active ">
+          <div class=" box box1">
+            <img src="images/Taj Mahal.jpg" alt="taj mahal">
+            <p class="info">taj mahal </p>
+            <div class="tdiv">
+              It is one of the 7 wonders of the world. Built by Mughal emperor Shah Jahan in the city of Agra.
+            </div>
+          </div>
+
+          <div class="box box2">
+            <img src="images/qutub minar.jpg" alt="qutub minar">
+            <p class="info">qutub minar</p>
+            <div class="qdiv">
+              It is a UNESCO World Heritage Site in the Mehrauli area of New Delhi, India.
+            </div>
+          </div>
+
+          <div class="box box3">
+            <img src="images/lotus temple.jpg" alt="lotus temple">
+            <p class="info">lotus temple</p>
+            <div class="ldiv">
+              Notable for its flowerlike shape. It has become a prominent attraction in the city of Delhi.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="box box4" >
+            <img src="images/rose.jpg" alt="rose">
+            <p class="info">rose</p>
+            <div class="tdiv">
+              The rose is a type of flowering shrub. Its name comes from the Latin word Rosa.
+            </div>
+          </div>
+
+          <div class="box box5 ">
+            <img src="images/sunflower.jpg" alt="rose">
+            <p class="info">sunflower</p>
+            <div class="qdiv">
+             <em>Helianthus annuus </em> is an annual plant with large bright yellow petals and brown center.
+            </div>
+          </div>
+
+          <div class="box box6 ">
+            <img src="images/tulip.jpg" alt="tulip">
+            <p class="info">tulip</p>
+            <div class="ldiv">
+            Any of a group of cultivated bulbous herbs in the family Liliaceae.
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="carousel-item">
+          <div class=" box box7">
+            <img src="images/bugatti.jpg" alt="bugatti">
+            <p class="info">bugatti</p>
+            <div class="bdiv">
+            They are known for their beautiful designs and mind blowing, top speed performances.
+            </div>
+          </div>
+
+          <div class="box box8">
+            <img src="images/rolls royce.jpg" alt="rolls royce">
+            <p class="info">rolls royce</p>
+            <div class="qdiv">
+            They are the definition of luxury and premium high quality cars.
+            </div>
+          </div>
+
+          <div class="box box9">
+            <img src="images/bentley.jpg" alt="bentley">
+            <p class="info">bentley</p>
+            <div class="ldiv">
+              They are among the most sought after luxury cars.
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+      <a class="carousel-control-prev carousel-indicator1 " href="#carouselControls" role="button" data-slide="prev" >
+        <span class="carousel-control-prev-icon" ></span>
+      </a>
+
+      <a class="carousel-control-next carousel-indicator2 " href="#carouselControls" role="button" data-slide="next" >
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+
+
+
+
+</section>
+
+
+
+<button id="toggle" class="btn btn-toggle">Toggle text box</button>
+<div id="text-box" class="text-box">
+  <div id="close" class="close">X</div>
+  <textarea id="text" placeholder="Enter text to read..."></textarea>
+  <button id="read" class="btn">Read text</button>
+</div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js" async defer></script>
+</body>
+
+</html>

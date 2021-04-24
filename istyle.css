@@ -1,0 +1,120 @@
+body{
+    background-color:#f6f1eb;
+    text-align: left;
+
+
+}
+p{
+    font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 50px;
+  color:#b91760;
+}
+.heading{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:#b91760;
+    margin: 40px 50px;
+  }
+.start{
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  left:320px;
+  top:120px;
+}
+.carousel{
+  position: absolute;
+  height: 150px;
+  width: 400px;
+  left:600px;
+  top:165px;
+}
+.ttbox{
+  position: absolute;
+  height: 70px;
+  width: 160px;
+  left:730px;
+  top:350px;
+}
+.voices{
+  position: absolute;
+  height: 230px;
+  width: 530px;
+  left:430px;
+  top:470px;
+}
+.eng{
+  position: absolute;
+  height: 230px;
+  width: 500px;
+  left:120px;
+  top:800px;
+
+}
+.kor{
+  position: absolute;
+  height: 230px;
+  width: 500px;
+  left:670px;
+  top:800px;
+}
+/* .jap{
+  position: absolute;
+  height: 230px;
+  width: 500px;
+  left:1000px;
+  top:670px;
+} */
+.rtext{
+  position: absolute;
+  height: 60px;
+  width: 140px;
+  left:345px;
+  top:1065px;
+}
+.btn {
+  background:  #C83779;
+  background-image: -webkit-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -moz-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -ms-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -o-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: linear-gradient(to bottom,  #C83779, #AB0C54);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:10px 15px 10px;
+
+}
+
+.btn:hover {
+  background: #E15F9A;
+  background-image: -webkit-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -moz-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -ms-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -o-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: linear-gradient(to bottom, #E15F9A, #EF599D);
+  color: #ffffff;
+  text-decoration: none;
+}
+.vbtn{
+  color: #ffffff;
+  text-decoration: none;
+margin-bottom: 30px;
+}
+.vbtn:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.sbtn{
+  position: absolute;
+  right:33px;
+
+}

@@ -1,0 +1,132 @@
+
+body{
+    background-color:#f6f1eb;
+}
+.navbar-brand {
+  font-family:serif;                       /*'Ubuntu', sans-serif*/
+  font-size: 3rem;
+  font-weight: bold;
+  color:#de437c;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.title-image {
+  margin-left: 90px;
+  width: 43%;
+  height:450px;
+  transform: rotate(-25deg);
+  left: 45px;  /*margin-left: 90px*/
+  position: relative;
+   z-index: 0;
+    margin-bottom: 5px;
+
+}
+#title{
+    background-color:#f6f1eb;    /*#f6f1eb;*/
+
+
+}
+.vright{
+  text-align: center;
+}
+
+.vtext{
+  /* text-align: left; */ /* #de437c; */
+/*  font-family: 'Cormorant Upright', serif;*/
+  color:#b91760;
+  font-family: 'Caveat', cursive;
+ font-weight: 400;
+ width:70%;
+ margin: 20px 30px ;
+ font-size: 1.5rem;
+ line-height:1.6;
+ text-align: center;
+}
+#footer{
+background-color:#de437c;
+position: relative;
+top:0px;
+z-index: 1;
+text-align: center;
+padding: 10px;
+}
+
+
+.ficon{
+  margin: 15px;
+  color:#fff;
+}
+
+.btn {
+  background:  #C83779;
+  background-image: -webkit-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -moz-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -ms-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: -o-linear-gradient(top,  #C83779, #AB0C54);
+  background-image: linear-gradient(to bottom,  #C83779, #AB0C54);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:10px 15px 10px;
+
+}
+
+.btn:hover {
+  background: #E15F9A;
+  background-image: -webkit-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -moz-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -ms-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: -o-linear-gradient(top, #E15F9A, #EF599D);
+  background-image: linear-gradient(to bottom, #E15F9A, #EF599D);
+  color: #ffffff;
+  text-decoration: none;
+}
+.ibtn{
+  position: absolute;
+  right:333px;
+}
+.sbtn{
+  position: absolute;
+  right:233px;
+}
+.vbtn{
+  color: #ffffff;
+  text-decoration: none;
+
+}
+.vbtn:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.hi{
+
+  height: 500px;
+  width: 100%;
+  background-image: url("images/pinkwood.jpg");
+}
+.dtext{
+  color:#fff;
+  position: absolute;
+  top:180px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  right:310px;
+  left:310px;
+  line-height: 1.5;
+}
